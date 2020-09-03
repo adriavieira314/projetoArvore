@@ -3,7 +3,7 @@ import './Home.css';
 
 function App() {
   return (
-    <div>
+    <main>
       <header>
         <ul>
           <li>Sobre nós</li>
@@ -12,7 +12,7 @@ function App() {
         </ul>
       </header>
       
-    </div>
+    </main>
   );
 }
 
