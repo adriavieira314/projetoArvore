@@ -1,5 +1,6 @@
 import React from 'react';
 import './Home.css';
+import image from './assets/criancas.jpg';
 
 function App() {
   return (
@@ -20,7 +21,10 @@ function App() {
         <p className='grid-item'>Trilha Matemática</p>
         <p className='grid-item'>Trilha Experimentos</p>
       </section>
-      
+
+      <div id='image-footer'>
+        <img src={image} alt="Crianças"/>
+      </div>
     </main>
   );
 }
