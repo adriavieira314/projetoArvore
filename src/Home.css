@@ -2,6 +2,11 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Cabin Sketch', cursive;
+}
+
+body {
+    background: #F0F0F5;
 }
 
 ul {
@@ -15,4 +20,5 @@ ul {
 li {
     list-style-type: none;
     margin-right: 100px;
+    font-size: 25px;
 }
