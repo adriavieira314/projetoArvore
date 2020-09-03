@@ -1,6 +1,6 @@
 import React from 'react';
 import './Home.css';
-import image from './assets/criancas.jpg';
+import image from './assets/criancas.png';
 
 function App() {
   return (
