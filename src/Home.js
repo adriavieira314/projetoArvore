@@ -22,9 +22,7 @@ function App() {
         <p className='grid-item'>Trilha Experimentos</p>
       </section>
 
-      <div id='image-footer'>
-        <img src={image} alt="Crianças"/>
-      </div>
+      <img src={image} alt="Crianças"/>
     </main>
   );
 }
