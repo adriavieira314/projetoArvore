@@ -23,6 +23,11 @@ li {
     font-size: 25px;
 }
 
+li:hover {
+    text-decoration: underline;
+    text-decoration-color: #FFF;
+}
+
 #user {
     position: absolute;
     display: flex;
