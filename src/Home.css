@@ -63,9 +63,15 @@ li:hover {
 .grid-item {
     display: flex;
     justify-content: center;
+    align-items: center;
     padding: 10px;
-    border-radius: 10px;
+    border: 2px solid;
     font-size: 25px;
+    width: 180px;
+    height: 200px;
+    text-align: center;
+    border-radius: 5px;
+    
 }
 
 .grid-item:nth-child(-n + 3) {
