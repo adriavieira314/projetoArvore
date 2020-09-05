@@ -1,6 +1,6 @@
 import React from 'react';
 import './Home.css';
-import Header from './Header'
+import { Header } from './Header'
 import premios from './assets/premios.jpg';
 import pessoas from './assets/pessoas_duvidas.jpg';
 import livros from './assets/leia-livros.jpg';
