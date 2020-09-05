@@ -1,13 +1,23 @@
 import React from 'react';
-import { Header } from '../Header';
+import { Header, UserSide } from '../Header';
+import './trilha.css';
 
 class Trilha extends React.Component {
     render() {
         return (
-            <div>
+            <main>
                 <Header />
-                <p>Hello World</p>
-            </div>
+                <section id='inicio-trilha'>
+                    <UserSide />
+                    <div id='conteudo'>
+                        <div id='box'>
+                            <p>Bem-vindo à Trilha Experimentos!</p>
+                        </div>
+                        <button>Começar</button>
+                    </div>
+                    
+                </section>
+            </main>
         );
     }
 }

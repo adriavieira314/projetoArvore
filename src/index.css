@@ -121,3 +121,7 @@ img {
     text-decoration: none;
     color: unset;
 }
+
+button:focus {
+    outline: none;
+}
