@@ -13,15 +13,33 @@ body {
 ul {
     display: flex;
     justify-content: flex-end;
-    padding: 40px 0;
+    padding: 38px 0;
     background: linear-gradient(to left,#45cad0,#45d0c1);
-    border-radius: 0 0 0 100%;
 }
 
 li {
     list-style-type: none;
     margin-right: 50px;
     font-size: 25px;
+}
+
+#user {
+    position: absolute;
+    display: flex;
+}
+
+#info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-left: 5px;
+}
+
+#user img {
+    width: 100px;
+    height: 100px;
+    margin-left: 0;
+    margin-bottom: 0;
 }
 
 #container {
