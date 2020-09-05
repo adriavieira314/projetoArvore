@@ -6,7 +6,7 @@ export function UserSide(){
     return (
         <aside>
             <div id='user'>
-                <img src={user} alt='teste' />
+                <img src={user} alt='Usuário' />
                 <div id='info'>
                     <p>Miguel José, 9 anos</p>
                     <p>00 pontos</p>

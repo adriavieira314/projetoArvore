@@ -29,36 +29,17 @@ li:hover {
     text-decoration-color: #FFF;
 }
 
-#user {
-    position: absolute;
-    display: flex;
-}
-
-#info {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    margin-left: 5px;
-}
-
-#user img {
-    width: 100px;
-    height: 100px;
-    margin-left: 0;
-    margin-bottom: 0;
-}
-
 #container {
     display: grid;
     justify-content: center;
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto auto;
     grid-column-gap: 100px;
-    margin: 40px 0 70px 150px;
+    margin: 0px 20px 70px 150px;
     background: #E0FFFF;
     width: 80%;
     border-radius: 50px;
-    padding: 30px 0;
+    padding: 50px 0;
 }
 
 .grid-item {
@@ -110,3 +91,25 @@ img {
     margin-left: 150px;
     margin-bottom: 70px;
 }
+
+#user img {
+    width: 200px;
+    height: 200px;
+    margin-left: 0;
+    margin-bottom: 0;
+} 
+
+#user {
+    margin-left: 50px;
+}
+
+#main-div {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#trilhas{
+   margin-left: 450px !important;
+}
+
