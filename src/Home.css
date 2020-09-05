@@ -6,7 +6,7 @@
 }
 
 body {
-    background: #F0F0F5;
+    background: #FFF;
 }
 
 ul {
@@ -19,7 +19,7 @@ ul {
 
 li {
     list-style-type: none;
-    margin-right: 100px;
+    margin-right: 50px;
     font-size: 25px;
 }
 
