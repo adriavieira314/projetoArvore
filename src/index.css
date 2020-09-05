@@ -116,3 +116,8 @@ img {
 #info {
     text-align: center;
 }
+
+.links {
+    text-decoration: none;
+    color: unset;
+}

@@ -1,6 +1,7 @@
 import React from 'react';
 import './index.css';
 import user from './assets/user.jpg';
+import { Link } from 'react-router-dom';
 
 export function UserSide(){
     return (
@@ -20,7 +21,9 @@ export function Header() {
     return (
         <header>
             <ul>
-                <li>Início</li>
+                <Link to='/' className='links'>
+                    <li>Início</li>
+                </Link>
                 <li>Banca</li>
                 <li>Monte seu Time</li>
                 <li>Dúvidas</li>

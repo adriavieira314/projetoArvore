@@ -4,6 +4,7 @@ import { Header, UserSide } from './Header'
 import premios from './assets/premios.jpg';
 import pessoas from './assets/pessoas_duvidas.jpg';
 import livros from './assets/leia-livros.jpg';
+import { Link } from 'react-router-dom';
 
 function App() {
   return (
@@ -19,7 +20,9 @@ function App() {
       <div id='main-div'>
         <UserSide />
         <section id='container'>
-          <p className='grid-item' style={{color: '#008000', borderColor: '#008000'}}>Trilha Botânica</p>
+          <Link to='/trilha' className='links'>
+            <p className='grid-item' style={{color: '#008000', borderColor: '#008000'}}>Trilha Botânica</p>
+          </Link>
           <p className='grid-item' style={{color: '#800080', borderColor: '#800080'}}>Trilha Monteiro Lobato</p>
           <p className='grid-item' style={{color: '#4169E1', borderColor: '#4169E1'}}>Trilha Universo</p>
           <p className='grid-item' style={{color: '#FFA500', borderColor: '#FFA500'}}>Trilha Folclore</p>

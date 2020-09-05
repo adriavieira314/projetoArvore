@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import TelaInicial from './TelaInicial';
+import App from './App';
 
 ReactDOM.render(
   <React.StrictMode>
-    <TelaInicial />
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );
