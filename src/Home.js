@@ -1,6 +1,9 @@
 import React from 'react';
 import './Home.css';
 import Header from './Header'
+import premios from './assets/premios.jpg';
+import pessoas from './assets/pessoas_duvidas.jpg';
+import livros from './assets/leia-livros.jpg';
 
 function App() {
   return (
@@ -22,7 +25,14 @@ function App() {
         <p className='grid-item'>Trilha Experimentos</p>
       </section>
 
-      <h2>Ranking Nacional</h2>
+      <article>
+        <h2>Ranking Nacional</h2>
+        <img src={premios} alt='Ranking' />
+        <img src={pessoas} alt='Dúvidas' />
+
+        <h2>Suas Leituras</h2>
+        <img src={livros} alt='Livros Lidos' />
+      </article>
 
     </main>
   );
