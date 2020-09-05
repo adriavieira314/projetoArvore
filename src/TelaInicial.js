@@ -1,5 +1,5 @@
 import React from 'react';
-import './Home.css';
+import './index.css';
 import { Header, UserSide } from './Header'
 import premios from './assets/premios.jpg';
 import pessoas from './assets/pessoas_duvidas.jpg';
