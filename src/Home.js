@@ -1,16 +1,11 @@
 import React from 'react';
 import './Home.css';
+import Header from './Header'
 
 function App() {
   return (
     <main>
-      <header>
-        <ul>
-          <li>Sobre nós</li>
-          <li>Nossas Trilhas</li>
-          <li>Entrar</li>
-        </ul>
-      </header>
+      <Header />
 
       <section id='container'>
         <p className='grid-item'>Trilha Botânica</p>
