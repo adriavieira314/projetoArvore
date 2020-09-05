@@ -15,6 +15,7 @@ ul {
     justify-content: flex-end;
     padding: 38px 0;
     background: linear-gradient(to left,#45cad0,#45d0c1);
+    border-radius: 0 0 0 100%;
 }
 
 li {
