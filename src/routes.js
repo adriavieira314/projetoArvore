@@ -1,7 +1,7 @@
 import React from 'react';
 import { Route, Switch, BrowserRouter } from 'react-router-dom'; //rotas para transição entre paginas
 
-import Home from '../src/TelaInicial';
+import Home from './AcessoCrianca/TelaInicial';
 import TrilhaInicio from '../src/Trilhas/TrilhaInicial';
 import Trilha1 from './Trilhas/Trilha1/Trilha1';
 import Trilha2 from './Trilhas/Trilha2/Trilha2';
