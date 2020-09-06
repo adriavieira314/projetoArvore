@@ -1,0 +1,33 @@
+#livros {
+    display: flex;
+    margin-left: 100px;
+    width: 100vw;
+}
+
+#livros img {
+    width: 300px;
+    height: 400px;
+    margin: 0;
+}
+
+#livros p:first-of-type {
+    align-self: flex-start;
+
+}
+
+#livros p:last-of-type {
+    align-self: flex-end;
+    text-align: right;
+}
+
+#avancar-livros {
+    display: flex;
+    justify-content: center;
+}
+
+#inicio {
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height: 70vh;
+}
