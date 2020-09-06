@@ -2,12 +2,16 @@ import React from 'react';
 import './styles.css';
 import user from '../assets/user.jpg';
 import { Link } from 'react-router-dom';
+import { IoMdSearch } from "react-icons/io";
 
 export function HeaderParents() {
     return (
         <header>
             <div id='pesquisa'>
                 <input type='text' placeholder='Pesquise pelo autor, título, categoria e etc' />
+                <label>
+                    <IoMdSearch id='search-icon' size='1.5em' />
+                </label>
             </div>
             <ul>
                 <Link to='/' className='links'>
