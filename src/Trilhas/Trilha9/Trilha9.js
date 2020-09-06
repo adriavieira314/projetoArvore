@@ -1,7 +1,6 @@
 import React from 'react';
 import { Header, UserSide } from '../../Header';
 import { Link } from 'react-router-dom';
-import discurso from '../../assets/discurso.jpg';
 
 class Trilhas extends React.Component {
     
@@ -13,14 +12,15 @@ class Trilhas extends React.Component {
                     <UserSide />
                     <div id='conteudo'>
                         <div id='box'>
-                            <img src={discurso} alt='Hora de Discutir' style={{marginTop: '20px'}} />
-                            <p style={{marginTop: '0'}} >Vamos testar seus conhecimentos?</p>
+                            <p style={{textAlign: 'center', marginTop: '30px', marginBottom: '30px'}}>Veja o que a sua família descobriu para você!</p>
+                            <p className='texto'>No Eixo Monumental, no municipio de Brasília, está localizada a escultura de Juscelino Kubistchek de Oliveira, homenageando o presidente brasileira e sua esposa.</p>
+                            <p className='texto'>Em memória a um dos maiores poetas brasileiros Carlos Drummond de Andrade, foi feita uma escultura que esta localizada na orla de Copacabana no Rio de Janeiro.</p>
                         </div>
                         <div id='voltar-avancar'>
-                            <Link to='/trilha2'>
+                            <Link to='/trilha8'>
                                 <button>Voltar</button>
                             </Link>
-                            <Link to='/trilha4'>
+                            <Link to='/trilha10'>
                                 <button>Avançar</button>
                             </Link>
                         </div> 
