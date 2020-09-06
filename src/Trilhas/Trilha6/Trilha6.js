@@ -1,7 +1,6 @@
 import React from 'react';
 import { Header, UserSide } from '../../Header';
 import { Link } from 'react-router-dom';
-import discurso from '../../assets/discurso.jpg';
 
 class Trilhas extends React.Component {
     
@@ -13,14 +12,14 @@ class Trilhas extends React.Component {
                     <UserSide />
                     <div id='conteudo'>
                         <div id='box'>
-                            <img src={discurso} alt='Hora de Discutir' style={{marginTop: '20px'}} />
-                            <p style={{marginTop: '0'}} >Vamos testar seus conhecimentos?</p>
+                            <p className='texto'>No Brasil também existem diversas esculturas muito importantes. Na cidade do Rio de Janeiro/RJ temos a esculta Cristo Redentor, inaugurada em 1931 e é feita com concreto e pedra, pesando 1145 toneladas.</p>
+                            <p className='texto'>Outra estátua muito famosa no Brasil é a de Carlos Drummond de Andrade, um grande poeta brasileiro e também fica no Rio de Janeiro! Temos também, no municipio de Armação de Buzios, a escultura Três Pescadores, localizada em uma região rochosa a beira-mar, considerada uma das esculturas mais belas do mundo.</p>
                         </div>
                         <div id='voltar-avancar'>
-                            <Link to='/trilha2'>
+                            <Link to='/trilha5'>
                                 <button>Voltar</button>
                             </Link>
-                            <Link to='/trilha4'>
+                            <Link to='/trilha7'>
                                 <button>Avançar</button>
                             </Link>
                         </div> 
