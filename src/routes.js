@@ -14,6 +14,9 @@ import Trilha8 from './Trilhas/Trilha8/Trilha8';
 import Trilha9 from './Trilhas/Trilha9/Trilha9';
 import Trilha10 from './Trilhas/Trilha10/Trilha10';
 import HomeParents from './AcessoPais/HomeParents';
+import Interacao1 from './AcessoPais/Interacao1/Interacao1';
+import Interacao2 from './AcessoPais/Interacao2/Interacao2';
+import Interacao3 from './AcessoPais/Interacao3/Interacao3';
 
 const Routes = () => {
     return (
@@ -32,6 +35,9 @@ const Routes = () => {
                 <Route path='/trilha9' component={Trilha9} />
                 <Route path='/trilha10' component={Trilha10} />
                 <Route path='/acesso-pais' component={HomeParents} />
+                <Route path='/interacao1' component={Interacao1} />
+                <Route path='/interacao2' component={Interacao2} />
+                <Route path='/interacao3' component={Interacao3} />
             </Switch>
         </BrowserRouter>
     );

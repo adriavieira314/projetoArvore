@@ -33,7 +33,9 @@ export function UserSideParents(){
                 <div id='info'>
                     <p>Miguel José, 9 anos</p>
                     <p>00 pontos</p>
-                    <p>Notifições</p>
+                    <Link to='/interacao1'>
+                        <p>Notifições</p>
+                    </Link>
                 </div>
             </div>
         </aside>
