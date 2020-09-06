@@ -1,5 +1,6 @@
 import React from 'react';
-import { Header, UserSide } from '../../Header';
+import { Header } from '../../Header';
+import { UserPoints } from './userPoints';
 import { Link } from 'react-router-dom';
 
 class Trilhas extends React.Component {
@@ -9,7 +10,7 @@ class Trilhas extends React.Component {
             <main>
                 <Header />
                 <section id='inicio-trilha'>
-                    <UserSide />
+                    <UserPoints />
                     <div id='conteudo'>
                         <div id='box-texto'>
                             <p className='texto'>Você sabia que a maior escultura do mundo tem 182 metros de altura? O nome dela é Estátua da Unidade e fica em Gujarat, na India e foi construída com ferro e bronze.</p>

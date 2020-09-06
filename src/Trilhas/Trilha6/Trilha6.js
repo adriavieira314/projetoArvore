@@ -1,5 +1,6 @@
 import React from 'react';
-import { Header, UserSide } from '../../Header';
+import { Header } from '../../Header';
+import { UserPoints } from '../Trilha5/userPoints';
 import { Link } from 'react-router-dom';
 
 class Trilhas extends React.Component {
@@ -9,7 +10,7 @@ class Trilhas extends React.Component {
             <main>
                 <Header />
                 <section id='inicio-trilha'>
-                    <UserSide />
+                    <UserPoints />
                     <div id='conteudo'>
                         <div id='box-texto'>
                             <p className='texto'>No Brasil também existem diversas esculturas muito importantes. Na cidade do Rio de Janeiro/RJ temos a esculta Cristo Redentor, inaugurada em 1931 e é feita com concreto e pedra, pesando 1145 toneladas.</p>

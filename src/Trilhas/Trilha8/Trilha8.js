@@ -1,5 +1,6 @@
 import React from 'react';
-import { Header, UserSide } from '../../Header';
+import { Header } from '../../Header';
+import { UserPoints } from '../Trilha5/userPoints';
 import { Link } from 'react-router-dom';
 import michelangelo from '../../assets/mestre-michelangelo.jpg';
 import esculturas from '../../assets/esculturas.jpg';
@@ -12,7 +13,7 @@ class Trilhas extends React.Component {
             <main>
                 <Header />
                 <section id='inicio'>
-                    <UserSide />
+                    <UserPoints />
                     <div id='livros'>
                         <a href='https://www2.arvoredelivros.com.br/biblioteca/livro/o-mestre-michelangelo' target='_blank'>
                             <img src={michelangelo} alt='Livro, O mestre Michelangelo' />

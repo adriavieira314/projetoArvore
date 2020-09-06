@@ -1,5 +1,6 @@
 import React from 'react';
-import { Header, UserSide } from '../../Header';
+import { Header } from '../../Header';
+import { UserPoints } from './user20Points';
 import { Link } from 'react-router-dom';
 import medalha from '../../assets/medalha.jpg';
 import './style.css';
@@ -11,7 +12,7 @@ class Trilhas extends React.Component {
             <main>
                 <Header />
                 <section id='inicio-trilha'>
-                    <UserSide />
+                    <UserPoints />
                     <div id='conteudo'>
                         <div id='box-texto'>
                             <img src={medalha} alt='Hora de Discutir' id='medalha' />
