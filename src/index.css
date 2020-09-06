@@ -117,6 +117,10 @@ img {
     text-align: center;
 }
 
+#info p {
+    margin-top: 10px;
+}
+
 .links {
     text-decoration: none;
     color: unset;

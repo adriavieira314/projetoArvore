@@ -1,0 +1,71 @@
+input[type = 'text'] {
+    width: 500px;
+    height: 50px;
+    border-radius: 10px;
+    border: 2px solid #FFF;
+}
+
+#pesquisa {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background: linear-gradient(to left,#45cad0,#45d0c1);
+}
+
+#estatistica {
+    display: flex;
+    margin-left: 350px;
+}
+
+#estatistica img {
+    margin-left: 60px;
+    margin-bottom: 0;
+}
+
+#estatistica #info {
+    align-self: center;
+    text-align: left;
+}
+
+#estatistica p:nth-last-child(-n + 2)
+{
+    margin-top: 20px;
+}
+
+#trilhas {
+    display: grid;
+    align-items: center;
+    grid-template-columns: auto auto auto auto auto;
+    margin-top: 50px;
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border: 2px solid;
+    font-size: 25px;
+    width: 180px;
+    height: 200px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.icons {
+    padding: 0;
+    width: 100px;
+    height: 60px;
+    color: #45cad0;
+}
+
+#outer {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 150px;
+}
+
+.footer {
+    display: block;
+    margin-right: 100px;
+}

@@ -27,7 +27,9 @@ export function Header() {
                 <li>Banca</li>
                 <li>Monte seu Time</li>
                 <li>Dúvidas</li>
-                <li>Usuário</li>
+                <Link to='acesso-pais' className='links'>
+                    <li>Usuário</li>
+                </Link>
             </ul>
         </header>
     );

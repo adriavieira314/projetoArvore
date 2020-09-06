@@ -13,6 +13,7 @@ import Trilha7 from './Trilhas/Trilha7/Trilha7';
 import Trilha8 from './Trilhas/Trilha8/Trilha8';
 import Trilha9 from './Trilhas/Trilha9/Trilha9';
 import Trilha10 from './Trilhas/Trilha10/Trilha10';
+import HomeParents from './AcessoPais/HomeParents';
 
 const Routes = () => {
     return (
@@ -30,6 +31,7 @@ const Routes = () => {
                 <Route path='/trilha8' component={Trilha8} />
                 <Route path='/trilha9' component={Trilha9} />
                 <Route path='/trilha10' component={Trilha10} />
+                <Route path='/acesso-pais' component={HomeParents} />
             </Switch>
         </BrowserRouter>
     );
