@@ -4,6 +4,7 @@ import { Route, Switch, BrowserRouter } from 'react-router-dom'; //rotas para tr
 import Home from '../src/TelaInicial';
 import TrilhaInicio from '../src/Trilhas/TrilhaInicial';
 import Trilha1 from './Trilhas/Trilha1/Trilha1';
+import Trilha2 from './Trilhas/Trilha2/Trilha2';
 
 const Routes = () => {
     return (
@@ -12,6 +13,7 @@ const Routes = () => {
                 <Route path='/' exact={true} component={Home} />
                 <Route path='/trilha' component={TrilhaInicio} />
                 <Route path='/trilha1' component={Trilha1} />
+                <Route path='/trilha2' component={Trilha2} />
             </Switch>
         </BrowserRouter>
     );

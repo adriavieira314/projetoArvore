@@ -3,6 +3,7 @@ import { Header, UserSide } from '../../Header';
 import './style.css';
 import { Link } from 'react-router-dom';
 
+
 class Trilhas extends React.Component {
     
     render() {
@@ -15,12 +16,15 @@ class Trilhas extends React.Component {
                         <div id='box'>
                             <p className='texto'>Você sabe o que é uma escultura?</p>
                             <p className='texto'>Ela pode ser considerada uma das formas mais complexas de arte. Há milhares de anos, vários artistas vêm fazendo esculturas de diversas formas e tamanhos.</p>
-                            <p className='texto'>As esculturas são artes tridimensionais. Isso porque elas tem três dimensões: altura, largura e profundidade.</p>
-                            <p className='texto'>Esse tipo de obra de arte pode ser feito com diversos materiais: argila, madeira, pedra, metal, resinas sintéticas e muito mais!</p>
                         </div>
-                        <Link to='/trilha2' id='avancar'>
-                            <button>Avançar</button>
-                        </Link>
+                        <div id='voltar-avancar'>
+                            <Link to='/trilha1'>
+                                <button>Voltar</button>
+                            </Link>
+                            <Link to='/trilha3'>
+                                <button>Avançar</button>
+                            </Link>
+                        </div> 
                     </div>
                     
                 </section>
