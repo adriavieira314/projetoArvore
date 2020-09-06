@@ -13,7 +13,7 @@ class Trilhas extends React.Component {
                     <UserSideParents />
                     <div id='conteudo-interacao'>
                         <div id='box-interacao'>
-                            <p>Você tem 2 pergunta(s) para ajudar na trilha de Miguel José!</p>
+                            <p id='perguntas'>Você tem 2 pergunta(s) para ajudar na trilha de Miguel José!</p>
                         </div>
                         <Link to='/interacao2' >
                             <button>Começar</button>

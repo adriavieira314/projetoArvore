@@ -1,8 +1,11 @@
 input[type = 'text'] {
     width: 500px;
     height: 50px;
-    /* border-radius: 10px; */
     border: 2px solid #FFF;
+}
+
+input[type = 'text']:focus {
+    outline: none;
 }
 
 #pesquisa {
@@ -66,15 +69,4 @@ label {
     width: 100px;
     height: 60px;
     color: #45cad0;
-}
-
-#outer {
-    display: flex;
-    justify-content: flex-end;
-    margin-top: 150px;
-}
-
-.footer {
-    display: block;
-    margin-right: 100px;
 }

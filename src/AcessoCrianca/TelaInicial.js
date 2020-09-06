@@ -31,13 +31,16 @@ function App() {
         </section>
       </div>
 
-      <article>
-        <h2>Ranking Nacional</h2>
-        <img src={premios} alt='Ranking' />
-        <img src={pessoas} alt='Dúvidas' />
+      <article id='outer'>
+          <div className='footer'>
+            <h2>Ranking Nacional</h2>
+            <img src={premios} alt='Ranking' />
+          </div>
 
-        <h2>Suas Leituras</h2>
-        <img src={livros} alt='Livros Lidos' />
+          <div className='footer'>
+            <h2>Suas Leituras</h2>
+            <img src={livros} alt='Livros Lidos' />
+          </div>
       </article>
 
     </main>

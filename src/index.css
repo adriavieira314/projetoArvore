@@ -129,3 +129,14 @@ img {
 button:focus {
     outline: none;
 }
+
+#outer {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 150px;
+}
+
+.footer {
+    display: block;
+    margin-right: 100px;
+}

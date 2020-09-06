@@ -53,6 +53,10 @@ button:hover {
     margin-top: 0;
 }
 
+#perguntas {
+    margin-top: 0 !important;
+}
+
 #box-interacao p:last-child {
     margin-top: 80px;
 }
