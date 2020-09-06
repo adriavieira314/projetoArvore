@@ -12,9 +12,9 @@ class Trilhas extends React.Component {
                 <section id='inicio-trilha'>
                     <UserSide />
                     <div id='conteudo'>
-                        <div id='box'>
-                            <img src={duvidas} alt='Hora de Discutir' style={{marginTop: '30px', width: '300px'}} />
-                            <p style={{marginTop: '0', fontSize: '25px'}} >Agora é hora de esperar a familia responder também, enquanto isso veja as nossas sugestões de leitura!</p>
+                        <div id='box-texto'>
+                            <img src={duvidas} alt='Hora de Discutir' style={{marginTop: '30px', width: '300px', alignSelf: 'flex-start'}} />
+                            <p className='texto'>Agora é hora de esperar a familia responder também, enquanto isso veja as nossas sugestões de leitura!</p>
                         </div>
                         <div style={{justifyContent: 'flex-end'}} id='voltar-avancar'>
                             <Link to='/trilha8'>

@@ -13,7 +13,7 @@ class Trilhas extends React.Component {
                 <section id='inicio-trilha'>
                     <UserSide />
                     <div id='conteudo'>
-                        <div id='box'>
+                        <div id='box-texto'>
                             <p className='texto'>As esculturas podem ser figuratuvas: que são aquelas que representam a imagem de uma pessoa, animal, objeto, etc., e também tem as esculturas abstratas, que não representa objetos próprios da nossa realidade.</p>
                             <p className='texto'>Um dos artistas mais famosos no mundo é o Michelangelo, que fez esculturas como David, Pietá e Moises.</p>
                         </div>

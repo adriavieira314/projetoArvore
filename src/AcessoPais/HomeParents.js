@@ -1,6 +1,7 @@
 import React from 'react';
 import './styles.css';
-import { HeaderParents, UserSideParents } from './AcessoPais'
+import { HeaderParents } from './AcessoPais';
+import UserSideParents from './AcessoPais';
 import premios from '../assets/premios.jpg';
 import livros from '../assets/leia-livros.jpg';
 import estatistica from '../assets/estatistica.jpg';

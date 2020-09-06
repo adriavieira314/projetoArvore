@@ -12,7 +12,7 @@ class Trilhas extends React.Component {
                 <section id='inicio-trilha'>
                     <UserSide />
                     <div id='conteudo'>
-                        <div id='box'>
+                        <div id='box-texto'>
                             <p className='texto'>Você sabe o que é uma escultura?</p>
                             <p className='texto'>Ela pode ser considerada uma das formas mais complexas de arte. Há milhares de anos, vários artistas vêm fazendo esculturas de diversas formas e tamanhos.</p>
                             <p className='texto'>As esculturas são artes tridimensionais. Isso porque elas tem três dimensões: altura, largura e profundidade.</p>

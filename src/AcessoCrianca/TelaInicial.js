@@ -12,7 +12,7 @@ function App() {
       <Header />
       <div id='introduction'>
         <p>
-          Seja bem-vindo Miguel José!<br/> A partir de agora você poderá iniciar sua trilha de conhecimento e compartilhá-la com toda sua família!
+          Seja bem-vindo Miguel José!<br/> A partir de agora você poderá iniciar sua trilha de<br/>conhecimento e compartilhá-la com toda sua<br/>família!
         </p>
       </div>
 

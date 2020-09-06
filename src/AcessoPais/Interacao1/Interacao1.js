@@ -1,5 +1,6 @@
 import React from 'react';
-import { HeaderParents, UserSideParents } from '../AcessoPais';
+import { HeaderParents } from '../AcessoPais';
+import UserSideParents from '../AcessoPais';
 import './style.css';
 import { Link } from 'react-router-dom';
 

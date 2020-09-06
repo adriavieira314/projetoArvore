@@ -7,9 +7,9 @@ ol {
 
 ol li {
     text-align: center;
-    border: 2px solid #000000; 
+    border: 1px solid #000000; 
     padding: 8px;
-    width: 60%;
+    width: 80%;
     margin-bottom: 10px;
     margin-left: 40px;
 }

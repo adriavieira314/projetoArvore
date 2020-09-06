@@ -12,8 +12,8 @@ class Trilhas extends React.Component {
                 <section id='inicio-trilha'>
                     <UserSide />
                     <div id='conteudo'>
-                        <div id='box'>
-                            <p>Quais os dois tipos de escultura citados anteriormente?</p>
+                        <div id='box-texto'>
+                            <p style={{textAlign: 'center', fontSize: '25px'}}>Quais os dois tipos de escultura<br/>citados anteriormente?</p>
                             <ol>
                                 <li>Figurativas e Esculpidas</li>
                                 <li>Talhadas e Abstratas</li>

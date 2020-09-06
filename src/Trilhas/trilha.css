@@ -13,11 +13,16 @@ main {
     height: 80vh;
 }
 
-#box {
+#box-texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 600px;
     height: 400px;
-    border: 2px solid #000;
+    border: 1px solid #000;
 }
+
 
 #conteudo {
     display: flex;
@@ -46,6 +51,5 @@ button:hover {
 
 #box p {
     text-align: center;
-    margin-top: 80px;
     font-size: 25px;
 }

@@ -11,8 +11,8 @@ class Trilhas extends React.Component {
                 <section id='inicio-trilha'>
                     <UserSide />
                     <div id='conteudo'>
-                        <div id='box'>
-                            <p style={{textAlign: 'center', marginTop: '30px', marginBottom: '30px'}}>Veja o que a sua família descobriu para você!</p>
+                        <div id='box-texto'>
+                            <p className='texto'>Veja o que a sua família descobriu para você!</p>
                             <p className='texto'>No Eixo Monumental, no municipio de Brasília, está localizada a escultura de Juscelino Kubistchek de Oliveira, homenageando o presidente brasileira e sua esposa.</p>
                             <p className='texto'>Em memória a um dos maiores poetas brasileiros Carlos Drummond de Andrade, foi feita uma escultura que esta localizada na orla de Copacabana no Rio de Janeiro.</p>
                         </div>

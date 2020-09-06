@@ -11,8 +11,10 @@ class Trilha extends React.Component {
                 <section id='inicio-trilha'>
                     <UserSide />
                     <div id='conteudo'>
-                        <div id='box'>
-                            <p>Bem-vindo à Trilha Experimentos!</p>
+                        <div id='box-texto'>
+                            <p  className='texto'>Bem-vindo à Trilha Experimentos!</p>
+                            <p  className='texto'>Eixo trabalhando: Artes Visuais</p>
+                            <p  className='texto'>Objetivo de aprendizagem: conhecer e apreciar obras e produções visuais. Investigar tridimensionalidade na arte</p>
                         </div>
                         <Link to='/trilha1'>
                             <button>Começar</button>

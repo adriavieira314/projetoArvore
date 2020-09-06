@@ -1,12 +1,11 @@
 #livros {
     display: flex;
-    margin-left: 100px;
+    margin-left: 250px;
     width: 100vw;
 }
-
 #livros img {
-    width: 300px;
-    height: 400px;
+    width: 200px;
+    height: 300px;
     margin: 0;
 }
 
@@ -22,12 +21,13 @@
 
 #avancar-livros {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
+    margin-right: 100px;
 }
 
 #inicio {
     display: flex;
     align-items: center;
     width: 100vw;
-    height: 70vh;
+    height: 60vh;
 }
