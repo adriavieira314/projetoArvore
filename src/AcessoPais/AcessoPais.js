@@ -25,22 +25,7 @@ export function HeaderParents() {
     );
 }
 
-const changeColor = {
-    color: '#000'
-}
-
 class UserSideParents extends React.Component {
-    // constructor(props) {
-    //     super(props);
-    //     this.changeColor = this.changeColor.bind(this);
-    // }
-
-    changeColor() {
-        const newColor = document.getElementById('notificacao');
-        newColor.classList.add('newColor');
-        console.log(newColor.classList);
-    }
-
     render() {
         return (
             <aside>
@@ -49,8 +34,8 @@ class UserSideParents extends React.Component {
                     <div id='info'>
                         <p>Miguel José, 9 anos</p>
                         <p>00 pontos</p>
-                        <Link to='/interacao1' className='links' onClick={() => this.changeColor()}>
-                            <p id='notificacao'>Notifições</p>
+                        <Link to='/interacao1' className='links'>
+                            <p style={{ color: '#F33A3A' }}>Notifições</p>
                         </Link>
                     </div>
                 </div>

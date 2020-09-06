@@ -1,6 +1,6 @@
 import React from 'react';
 import { HeaderParents } from '../AcessoPais';
-import UserSideParents from '../AcessoPais';
+import { UserParentsChangeColor } from '../Interacao1/userParents';
 import { Link } from 'react-router-dom';
 import discurso from '../../assets/discurso.jpg';
 
@@ -11,7 +11,7 @@ class Trilhas extends React.Component {
             <main>
                 <HeaderParents />
                 <section id='inicio-interacao'>
-                    <UserSideParents />
+                    <UserParentsChangeColor />
                     <div id='conteudo-interacao'>
                         <div id='box-interacao'>
                             <p>A Trilha do árvore agradece a sua participação!</p>

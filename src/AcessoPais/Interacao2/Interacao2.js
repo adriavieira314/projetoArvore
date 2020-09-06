@@ -1,6 +1,6 @@
 import React from 'react';
 import { HeaderParents } from '../AcessoPais';
-import UserSideParents from '../AcessoPais';
+import { UserParentsChangeColor } from '../Interacao1/userParents';
 import './style.css';
 import { Link } from 'react-router-dom';
 
@@ -12,7 +12,7 @@ class Trilhas extends React.Component {
             <main>
                 <HeaderParents />
                 <section id='inicio-interacao'>
-                    <UserSideParents />
+                    <UserParentsChangeColor />
                     <div id='conteudo-interacao'>
                         <div id='box-interacao'>
                             <p className='pergunta'>No Eixo Monumental, no municipio de Brasília, está localizada a esculta de ____________________________, homenageando o presidente brasileira e sua esposa.</p>
