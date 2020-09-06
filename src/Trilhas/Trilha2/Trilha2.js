@@ -14,8 +14,8 @@ class Trilhas extends React.Component {
                     <UserSide />
                     <div id='conteudo'>
                         <div id='box'>
-                            <p className='texto'>Você sabe o que é uma escultura?</p>
-                            <p className='texto'>Ela pode ser considerada uma das formas mais complexas de arte. Há milhares de anos, vários artistas vêm fazendo esculturas de diversas formas e tamanhos.</p>
+                            <p className='texto'>As esculturas podem ser figuratuvas: que são aquelas que representam a imagem de uma pessoa, animal, objeto, etc., e também tem as esculturas abstratas, que não representa objetos próprios da nossa realidade.</p>
+                            <p className='texto'>Um dos artistas mais famosos no mundo é o Michelangelo, que fez esculturas como David, Pietá e Moises.</p>
                         </div>
                         <div id='voltar-avancar'>
                             <Link to='/trilha1'>
