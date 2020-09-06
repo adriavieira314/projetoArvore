@@ -1,7 +1,7 @@
 import React from 'react';
 import { Header, UserSide } from '../../Header';
 import { Link } from 'react-router-dom';
-import discurso from '../../assets/discurso.jpg';
+import duvidas from '../../assets/pessoas_duvidas.jpg';
 
 class Trilhas extends React.Component {
     
@@ -13,14 +13,14 @@ class Trilhas extends React.Component {
                     <UserSide />
                     <div id='conteudo'>
                         <div id='box'>
-                            <img src={discurso} alt='Hora de Discutir' style={{marginTop: '20px'}} />
-                            <p style={{marginTop: '0'}} >Vamos testar seus conhecimentos?</p>
+                            <img src={duvidas} alt='Hora de Discutir' style={{marginTop: '30px', width: '300px'}} />
+                            <p style={{marginTop: '0', fontSize: '25px'}} >Agora é hora de esperar a familia responder também, enquanto isso veja as nossas sugestões de leitura!</p>
                         </div>
                         <div id='voltar-avancar'>
-                            <Link to='/trilha2'>
+                            <Link to='/trilha6'>
                                 <button>Voltar</button>
                             </Link>
-                            <Link to='/trilha4'>
+                            <Link to='/trilha8'>
                                 <button>Avançar</button>
                             </Link>
                         </div> 
