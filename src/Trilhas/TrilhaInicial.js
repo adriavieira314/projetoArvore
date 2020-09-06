@@ -1,6 +1,7 @@
 import React from 'react';
 import { Header, UserSide } from '../Header';
 import './trilha.css';
+import { Link } from 'react-router-dom';
 
 class Trilha extends React.Component {
     render() {
@@ -13,7 +14,9 @@ class Trilha extends React.Component {
                         <div id='box'>
                             <p>Bem-vindo à Trilha Experimentos!</p>
                         </div>
-                        <button>Começar</button>
+                        <Link to='/trilha1'>
+                            <button>Começar</button>
+                        </Link>
                     </div>
                     
                 </section>
