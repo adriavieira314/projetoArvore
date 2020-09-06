@@ -1,0 +1,12 @@
+#medalha {
+    margin-top: 0;
+    margin-left: 200px;
+    margin: 0 0 0 200px;
+    width: 200px;
+    height: 200px;
+}
+
+.texto-alterado {
+    margin-top: 0;
+    text-align: center !important;
+}
