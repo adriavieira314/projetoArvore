@@ -1,7 +1,7 @@
 import React from 'react';
 import { Header, UserSide } from '../../Header';
 import { Link } from 'react-router-dom';
-import discurso from '../../assets/discurso.jpg';
+import './style.css';
 
 class Trilhas extends React.Component {
     
@@ -13,15 +13,17 @@ class Trilhas extends React.Component {
                     <UserSide />
                     <div id='conteudo'>
                         <div id='box'>
-                            <img src={discurso} alt='Hora de Discutir' style={{marginTop: '20px'}} />
-                            <p style={{marginTop: '0'}} >Vamos testar seus conhecimentos?</p>
+                            <p>Quais os dois tipos de escultura citados anteriormente?</p>
+                            <ol>
+                                <li>Figurativas e Esculpidas</li>
+                                <li>Talhadas e Abstratas</li>
+                                <li>Abstratas e Figurativas</li>
+                                <li>Talhadas e Esculpidas</li>
+                            </ol>
                         </div>
-                        <div id='voltar-avancar'>
-                            <Link to='/trilha2'>
-                                <button>Voltar</button>
-                            </Link>
-                            <Link to='/trilha4'>
-                                <button>Avançar</button>
+                        <div id='confirmar'>
+                            <Link to='/trilha5'>
+                                <button>Confirmar</button>
                             </Link>
                         </div> 
                     </div>
