@@ -7,8 +7,10 @@ Uma ferramenta idealizada para toda família e que trará para as crianças um a
 Seu objetivo geral é tornar a leitura um hábito familiar mostrando que o processo de aprendizagem é divertido, além de desafiador
 
 <p align='center'>
-<img src='src/assets/home_aluno.jpg' alt='Home Aluno' width='600px' height='400px' />
-<img src='src/assets/home_tutor.jpg' alt='Home Tutor' width='600px' height='400px' />
+    <img src='src/assets/home_aluno.jpg' alt='Home Aluno' width='700px' height='400px' />
+    <img src='src/assets/trilha_aluno.gif' alt='Trilha Aluno' width='700px' height='400px' />
+    <img src='src/assets/home_tutor.jpg' alt='Home Tutor' width='700px' height='400px' />
+    <img src='src/assets/trilha_tutor.gif' alt='Trilha Tutor' width='700px' height='400px' />
 </p>
 
 ### Pré-requisitos
