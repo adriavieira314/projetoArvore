@@ -136,7 +136,7 @@ button:focus {
 #outer {
     display: flex;
     justify-content: flex-end;
-    margin-top: 150px;
+    margin-top: 20px;
 }
 
 .footer {

@@ -34,7 +34,7 @@ function App() {
           <IoMdArrowDroprightCircle className='icons' />
         </section>
 
-        <article id='outer'>
+        <article id='outer-parents'>
           <div className='footer'>
             <h2>Ranking Nacional</h2>
             <img src={premios} alt='Ranking' />

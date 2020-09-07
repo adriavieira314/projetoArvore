@@ -70,3 +70,9 @@ label {
     height: 60px;
     color: #45cad0;
 }
+
+#outer-parents {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 150px;
+}
