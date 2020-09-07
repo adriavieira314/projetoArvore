@@ -4,6 +4,11 @@ import { Link } from 'react-router-dom';
 import './style.css';
 
 class Trilhas extends React.Component {
+    background() {
+        const newClass = document.getElementById('resposta-correta');
+        newClass.classList.add('background');
+    }
+
     render() {
         return (
             <main>
@@ -16,7 +21,7 @@ class Trilhas extends React.Component {
                             <ol>
                                 <li>Figurativas e Esculpidas</li>
                                 <li>Talhadas e Abstratas</li>
-                                <li>Abstratas e Figurativas</li>
+                                <li id='resposta-correta' onClick={() => this.background()}>Abstratas e Figurativas</li>
                                 <li>Talhadas e Esculpidas</li>
                             </ol>
                         </div>
