@@ -17,7 +17,7 @@ class Trilhas extends React.Component {
                             <p className='pergunta'>No Eixo Monumental, no municipio de Brasília, está localizada a esculta de ____________________________, homenageando o presidente brasileira e sua esposa.</p>
                             <form className='check'>  
                                 <label>
-                                    <input type="radio"  id='juscelino' name='presidentes' checked />
+                                    <input type="radio"  id='juscelino' name='presidentes' />
                                     Juscelino Kubistchek
                                 </label>
                                 <label>
@@ -29,7 +29,7 @@ class Trilhas extends React.Component {
                             <p className='pergunta'>Em memória a um dos maiores poetas brasileiros Carlos Drummond de Andrade, foi feita uma escultura que esta localizada na ________________________ no Rio de Janeiro.</p>
                             <form className='check'>  
                                 <label>
-                                    <input type="radio" id='copacabana' name='praias' checked />
+                                    <input type="radio" id='copacabana' name='praias' />
                                     Orla de Copacabana    
                                 </label>
                                 <label>
