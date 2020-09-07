@@ -30,6 +30,7 @@ export function Header() {
                 <Link to='/acesso-pais' className='links'>
                     <li>Tutor</li>
                 </Link>
+                <li>Sair</li>
             </ul>
         </header>
     );

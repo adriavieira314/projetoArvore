@@ -34,15 +34,9 @@ li:hover {
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto auto;
     grid-column-gap: 100px;
-    margin: 0px 20px 70px 150px;
+    margin: 0px 20px 0 150px;
     width: 80%;
     border-radius: 50px;
-    padding: 50px 0;
-}
-
-#container:hover {
-    background: #E0FFFF;
-    transition: background 0.2s linear;
 }
 
 .grid-item {
@@ -64,7 +58,7 @@ li:hover {
 }
 
 .grid-item:hover {
-    background: #FFF	;
+    background: #E0FFFF;
     transition: background 0.3s linear;
 }
 
@@ -110,10 +104,6 @@ img {
 #main-div {
     display: flex;
     margin-top: 20px;
-}
-
-#trilhas-titulo{
-   margin-left: 450px !important;
 }
 
 #info {

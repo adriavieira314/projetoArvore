@@ -56,11 +56,6 @@ label {
     margin-left: 450px;
 }
 
-#trilhas:hover {
-    background: #E0FFFF;
-    transition: background 0.2s linear;
-}
-
 .item {
     display: flex;
     justify-content: center;
@@ -75,7 +70,7 @@ label {
 }
 
 .item:hover {
-    background: #FFF	;
+    background: #E0FFFF;
     transition: background 0.3s linear;
 }
 
