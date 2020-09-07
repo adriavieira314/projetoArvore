@@ -15,7 +15,7 @@ function App() {
         </p>
       </div>
 
-      <h2 id='trilhas'>Nossas Trilhas</h2>
+      <h2 id='trilhas-titulo'>Nossas Trilhas</h2>
       <div id='main-div'>
         <UserSide />
         <section id='container'>
