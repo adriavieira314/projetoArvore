@@ -6,4 +6,5 @@
 # Objetivo
 ##### Seu objetivo geral é motivar as crianças a continuarem lendo já que junto dela terá a família que também irá ter contato com a plataforma para que seu filho continue a trilha e, assim, continuar aprendendo.
 
-<img src='src/assets/home_aluno.jpb' alt='Home Aluno' />
+<img src='src/assets/home_aluno.jpg' alt='Home Aluno' width='500px' height='300px' />
+<img src='src/assets/trilha_aluno.jpg' alt='Trilha Aluno' width='500px' height='300px' />
