@@ -41,7 +41,6 @@ $ npm start
 - [ReactJS](https://pt-br.reactjs.org/)
 
 ### Autor
---
 
 Feito com 🏃 por Adria Vieira 👋🏽 Entre em contato!
 
