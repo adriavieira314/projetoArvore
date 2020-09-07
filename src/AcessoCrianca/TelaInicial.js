@@ -19,14 +19,14 @@ function App() {
       <div id='main-div'>
         <UserSide />
         <section id='container'>
-          <Link to='/trilha' className='links'>
-            <p className='grid-item' style={{color: '#008000', borderColor: '#008000'}}>Trilha Botânica</p>
-          </Link>
+          <p className='grid-item' style={{color: '#008000', borderColor: '#008000'}}>Trilha Botânica</p>
           <p className='grid-item' style={{color: '#800080', borderColor: '#800080'}}>Trilha Monteiro Lobato</p>
           <p className='grid-item' style={{color: '#4169E1', borderColor: '#4169E1'}}>Trilha Universo</p>
           <p className='grid-item' style={{color: '#FFA500', borderColor: '#FFA500'}}>Trilha Folclore</p>
           <p className='grid-item' style={{color: '#FF0000', borderColor: '#FF0000	'}}>Trilha Matemática</p>
-          <p className='grid-item' style={{color: '#000000', borderColor: '#000000'}}>Trilha Experimentos</p>
+          <Link to='/trilha' className='links'>
+            <p className='grid-item' style={{color: '#000000', borderColor: '#000000'}}>Trilha Experimentos</p>
+          </Link>
         </section>
       </div>
 
