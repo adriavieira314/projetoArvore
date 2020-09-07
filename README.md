@@ -7,12 +7,12 @@
 ##### Seu objetivo geral é motivar as crianças a continuarem lendo já que junto dela terá a família que também irá ter contato com a plataforma para que seu filho continue a trilha e, assim, continuar aprendendo.
 
 <p align='center'>
-<img src='src/assets/home_aluno.jpg' alt='Home Aluno' width='500px' height='300px' />
-<img src='src/assets/trilha_aluno.jpg' alt='Trilha Aluno' width='500px' height='300px' />
-<img src='src/assets/tela_de_espera_aluno.jpg' alt='Trilha Aluno' width='500px' height='300px' />
-<img src='src/assets/home_tutor.jpg' alt='Trilha Aluno' width='500px' height='300px' />
-<img src='src/assets/pergunta_tutor.jpg' alt='Trilha Aluno' width='500px' height='300px' />
-<img src='src/assets/validacao_tutor.jpg' alt='Trilha Aluno' width='500px' height='300px' />
+<img src='src/assets/home_aluno.jpg' alt='Home Aluno' width='500px' height='400px' />
+<img src='src/assets/trilha_aluno.jpg' alt='Trilha Aluno' width='500px' height='400px' />
+<img src='src/assets/tela_de_espera_aluno.jpg' alt='Trilha Aluno' width='500px' height='400px' />
+<img src='src/assets/home_tutor.jpg' alt='Trilha Aluno' width='500px' height='400px' />
+<img src='src/assets/pergunta_tutor.jpg' alt='Trilha Aluno' width='500px' height='400px' />
+<img src='src/assets/validacao_tutor.jpg' alt='Trilha Aluno' width='500px' height='400px' />
 </p>
 
 ### Pré-requisitos
@@ -45,5 +45,5 @@ $ npm start
 
 Feito com 🏃 por Adria Vieira 👋🏽 Entre em contato!
 
-[![Linkedin Badge]](https://www.linkedin.com/in/adria-vieira-60070918b/) 
-[![Gmail Badge]](mailto:adriavieira731@gmail.com)
+[![Linkedin Badge](https://img.shields.io/badge/-Adria-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://https://www.linkedin.com/in/adria-vieira-60070918b/)](https://www.linkedin.com/in/adria-vieira-60070918b/) 
+[![Gmail Badge]](https://img.shields.io/badge/-adriavieira731@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:adriavieira731@gmail.com)(mailto:adriavieira731@gmail.com)
