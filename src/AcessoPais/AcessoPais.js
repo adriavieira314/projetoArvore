@@ -22,6 +22,7 @@ export function HeaderParents() {
                 <Link to='/' className='links'>
                     <li>Aluno</li>
                 </Link>
+                <li>Sair</li>
             </ul>
         </header>
     );
