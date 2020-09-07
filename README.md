@@ -46,4 +46,4 @@ $ npm start
 Feito com 🏃 por Adria Vieira 👋🏽 Entre em contato!
 
 [![Linkedin Badge](https://img.shields.io/badge/-Adria-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://https://www.linkedin.com/in/adria-vieira-60070918b/)](https://www.linkedin.com/in/adria-vieira-60070918b/) 
-[![Gmail Badge]](https://img.shields.io/badge/-adriavieira731@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:adriavieira731@gmail.com)(mailto:adriavieira731@gmail.com)
+[![Gmail Badge](https://img.shields.io/badge/-adriavieira731@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:adriavieira731@gmail.com)](mailto:adriavieira731@gmail.com)
