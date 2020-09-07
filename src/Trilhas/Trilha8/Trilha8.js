@@ -7,7 +7,6 @@ import esculturas from '../../assets/esculturas.jpg';
 import './style.css';
 
 class Trilhas extends React.Component {
-    
     render() {
         return (
             <main>

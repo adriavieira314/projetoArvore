@@ -4,7 +4,6 @@ import { UserPoints } from '../Trilha5/userPoints';
 import { Link } from 'react-router-dom';
 
 class Trilhas extends React.Component {
-    
     render() {
         return (
             <main>
@@ -22,7 +21,6 @@ class Trilhas extends React.Component {
                             </Link>
                         </div> 
                     </div>
-                    
                 </section>
             </main>
         );

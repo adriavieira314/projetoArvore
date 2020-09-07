@@ -2,7 +2,6 @@ import React from 'react';
 import '../index.css';
 import { Header, UserSide } from '../Header'
 import premios from '../assets/premios.jpg';
-import pessoas from '../assets/pessoas_duvidas.jpg';
 import livros from '../assets/leia-livros.jpg';
 import { Link } from 'react-router-dom';
 
@@ -42,7 +41,6 @@ function App() {
             <img src={livros} alt='Livros Lidos' />
           </div>
       </article>
-
     </main>
   );
 }

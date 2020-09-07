@@ -19,7 +19,6 @@ class Trilhas extends React.Component {
                             <button>Começar</button>
                         </Link>
                     </div>
-                    
                 </section>
             </main>
         );

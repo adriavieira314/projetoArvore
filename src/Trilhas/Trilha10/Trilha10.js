@@ -6,7 +6,6 @@ import medalha from '../../assets/medalha.jpg';
 import './style.css';
 
 class Trilhas extends React.Component {
-    
     render() {
         return (
             <main>
@@ -26,7 +25,6 @@ class Trilhas extends React.Component {
                             <button>Etapa 2</button>
                         </div> 
                     </div>
-                    
                 </section>
             </main>
         );

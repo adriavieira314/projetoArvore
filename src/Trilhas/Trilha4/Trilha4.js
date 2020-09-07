@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom';
 import './style.css';
 
 class Trilhas extends React.Component {
-    
     render() {
         return (
             <main>
@@ -27,7 +26,6 @@ class Trilhas extends React.Component {
                             </Link>
                         </div> 
                     </div>
-                    
                 </section>
             </main>
         );

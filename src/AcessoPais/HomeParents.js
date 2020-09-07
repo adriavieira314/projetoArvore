@@ -5,7 +5,6 @@ import UserSideParents from './AcessoPais';
 import premios from '../assets/premios.jpg';
 import livros from '../assets/leia-livros.jpg';
 import estatistica from '../assets/estatistica.jpg';
-// import { Link } from 'react-router-dom';
 import { IoMdArrowDropleftCircle, IoMdArrowDroprightCircle } from "react-icons/io";
 
 function App() {
@@ -23,7 +22,7 @@ function App() {
               <p>Trilhas iniciadas até o momento: 1/6</p>
               <p>Quantidades de perguntas e acertos: 2/1</p>
             </div>
-            <img src={estatistica} />
+            <img src={estatistica} alt='Estatísticas de uso da plataforma' />
           </div>          
         </div>
 

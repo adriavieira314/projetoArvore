@@ -6,7 +6,6 @@ import { Link } from 'react-router-dom';
 
 
 class Trilhas extends React.Component {
-    
     render() {
         return (
             <main>
@@ -44,7 +43,6 @@ class Trilhas extends React.Component {
                             <button>Validar</button>
                         </Link>
                     </div>
-                    
                 </section>
             </main>
         );

@@ -2,10 +2,8 @@ import React from 'react';
 import { HeaderParents } from '../AcessoPais';
 import { UserParentsChangeColor } from '../Interacao1/userParents';
 import { Link } from 'react-router-dom';
-import discurso from '../../assets/discurso.jpg';
 
 class Trilhas extends React.Component {
-    
     render() {
         return (
             <main>
@@ -21,7 +19,6 @@ class Trilhas extends React.Component {
                             <button>Fechar</button>
                         </Link>
                     </div>
-                    
                 </section>
             </main>
         );

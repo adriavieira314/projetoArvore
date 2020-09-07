@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom';
 import discurso from '../../assets/discurso.jpg';
 
 class Trilhas extends React.Component {
-    
     render() {
         return (
             <main>
@@ -25,7 +24,6 @@ class Trilhas extends React.Component {
                             </Link>
                         </div> 
                     </div>
-                    
                 </section>
             </main>
         );
