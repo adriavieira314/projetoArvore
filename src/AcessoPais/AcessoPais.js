@@ -19,7 +19,9 @@ export function HeaderParents() {
                 </Link>
                 <li>Banca</li>
                 <li>Dúvidas</li>
-                <li>Usuário</li>
+                <Link to='/' className='links'>
+                    <li>Aluno</li>
+                </Link>
             </ul>
         </header>
     );
